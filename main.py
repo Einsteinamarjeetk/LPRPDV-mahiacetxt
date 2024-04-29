@@ -28,11 +28,11 @@ import os
 import io
 from get_video_info import get_video_attributes, get_video_thumb
 
-API_ID = 26368249
-API_HASH = "ac2db262d5eb7ce0efc0162404c8d172"
-BOT_TOKEN = "6607012287:AAGlx6rKj5wPOl_WWLt04e_uF8SQylL6Sls"
-AUTH_USERS = 5684410709
-sudo_users = [5684410709]
+API_ID = 9438917
+API_HASH = "b86192c6db595de8e8863b43648c55da"
+BOT_TOKEN = "6606738353:AAGLmO0ZG2YaOKy8ni-M4fjjoyAphFGRqjk"
+AUTH_USERS = 6015844922
+sudo_users = [6015844922]
 bot = Client(
     "bot",
     bot_token=BOT_TOKEN,
@@ -52,9 +52,9 @@ async def exec(cmd):
   
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
- editable = await m.reply_text("**Hi Owner I'm Alive Send /down download and for classplus send /clps  for /dhurina for /vision**")
+ editable = await m.reply_text("**Hi Owner I'm Einstein Send /down download and for classplus send /clps  for /dhurina for /vision**")
 
-@bot.on_message(filters.command(["down"]))
+@bot.on_message(filters.command(["Einstein"]))
 async def account_login(bot: Client, m: Message):
     global cancel
     cancel = False
