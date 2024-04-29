@@ -7,7 +7,7 @@ ffmpeg
 psutil
 lxml
 bs4
-aiohttp
+aiohttp==3.8.4
 aiofiles
 asyncio
 pycurl
