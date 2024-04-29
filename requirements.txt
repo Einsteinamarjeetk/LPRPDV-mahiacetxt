@@ -2,7 +2,7 @@ pyrogram==2.0.106
 tgcrypto
 requests==2.31.0
 pyromod==1.5
-yt-dlp
+yt-dlp==2023.6.22
 ffmpeg
 psutil
 lxml
